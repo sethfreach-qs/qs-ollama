@@ -114,7 +114,7 @@ def main(local=False):
     load_dotenv()
 
     if local:
-        client = OllamaAPIClient("sheldon")
+        client = OllamaAPIClient("phi")
     else:
         client = OpenAIAPIClient("gpt-4o")
 
